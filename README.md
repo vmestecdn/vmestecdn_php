@@ -11,7 +11,7 @@
 ### Подключение
 ```php
 include("vmestecdn.php"); // подключение файла класса
-$uploads = new VmestecdnUpload("your_token"); // токен из вашего личного кабинета
+$uploads = new Vmestecdn("your_token"); // токен из вашего личного кабинета
 ```
 ### Загрузка видео
 ```php
