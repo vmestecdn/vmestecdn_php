@@ -24,12 +24,12 @@ if(isset($_FILES['file'])){
     $result = $uploads->upload_form($_FILES['file']));
 }
 
-// получение рузльтата загрузки
+// получение рузультата загрузки
 $data = json_decode($result, true); // преобразуем JSON в массив
 $data['result']; // результат загрузки success/error
 $uuid = $data['uuid']; // идентификатор загруженного файла, если result: success;
 
-//либо можно использоват готовые функции
+//либо можно использовать готовые функции
 $uploads->result_upload(); // результат загрузки success/error
 $uploads->uuid_upload(); // идентификатор загруженного файла, если result: success;
 
