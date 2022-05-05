@@ -1,5 +1,5 @@
 <?php
-class VmestecdnUpload{
+class Vmestecdn{
 
     private $upload_uuid = null;
 
